@@ -1,0 +1,37 @@
+body{
+    /* background-color: cadetblue; */
+} 
+
+.container{
+    background-color: rgb(243, 227, 227);
+    
+    display: flex;
+   
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    align-items: ;
+}
+/* justify- content main axis pr kaam karta hai  */
+/* align items jp hota hai perpendicular axis pr kaam karta hai */
+.container div{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+ .i{
+    background-color: blueviolet;
+    flex-grow: 1;
+ }   
+
+ .j{
+    background-color: chocolate;
+    flex-grow: 2;
+ }
+.k{
+    background-color: crimson;
+}
+.l{
+    background-color: green;
+}

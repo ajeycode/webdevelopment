@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+.container{
+    padding: 10px;
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+    background-color: rgb(18, 11, 61);
+    gap: 5px;
+    width: 400px;
+    height: 400px;
+}
+.first{
+    background-color: brown;
+}
+.second{
+    background-color: blueviolet;
+}
+.third{
+    background-color: yellow;
+}
+.fourth{
+    background-color: darkgreen;
+}
